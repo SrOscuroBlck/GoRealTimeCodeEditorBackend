@@ -1,0 +1,45 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Build directories
+bin/
+cmd/server/server
+
+# Go-related
+*.log
+*.test
+*.out
+*.cover
+*.cov
+go.sum
+vendor/
+
+# VS Code and JetBrains IDE settings
+.vscode/
+.idea/
+
+# macOS files
+.DS_Store
+
+# Docker
+Dockerfile
+docker-compose.yml
+.env
+.dockerignore
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Config files (if any might be locally set up)
+config.yaml
+
+# Third-party libraries and dependencies (optional, if using a package manager that generates this)
+node_modules/
+
+# Ignore any generated API documentation if applicable
+docs/
